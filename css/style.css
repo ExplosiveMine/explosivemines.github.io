@@ -431,7 +431,6 @@ textarea {
     text-align: center; }
 
 .project-details__content {
-
   max-width: 90rem;
   margin: auto; }
   .project-details__content-title {
@@ -443,7 +442,7 @@ textarea {
         font-size: 2.4rem; } }
 
 .project-links__content {
-  padding: 8rem 0;
+  padding: 0 0 8rem;
   max-width: 90rem;
   margin: auto; }
   .project-details__content-title {
@@ -493,22 +492,6 @@ textarea {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
-
-.project-details__links {
-  margin: 0 0; }
-  .project-details__links-btn {
-    margin-right: 2rem; }
-    @media only screen and (max-width: 37.5em) {
-      .project-details__links-btn {
-        margin-right: 0;
-        width: 70%;
-        margin-bottom: 2rem;
-        text-align: center; } }
-    .project-details__links-btn:last-child {
-      margin: 0; }
-      @media only screen and (max-width: 37.5em) {
-        .project-details__links-btn:last-child {
-          margin: 0; } }
 
 .header {
   position: fixed;
